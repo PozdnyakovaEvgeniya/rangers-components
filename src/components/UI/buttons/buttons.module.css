@@ -1,0 +1,160 @@
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+button:focus-visible {
+    outline: none;
+}
+
+.button1 {
+    background: linear-gradient(60deg, #343346, #2d3c41);
+    color: #56baca;
+}
+
+.button2 {
+    background: linear-gradient(60deg, #15423d, #10322e);
+    color: #00ab97;
+}
+
+.button3 {
+    background: linear-gradient(60deg, #3e491b, #303816);
+    color: #8fba00;
+}
+
+.button4 {
+    background: linear-gradient(60deg, #371010, #280b0b);
+    color: #ff633d;
+}
+
+.button1:not(span):hover,
+.button1:not(span):focus-visible, 
+.button2:hover,
+.button2:focus-visible, 
+.button3:hover, 
+.button3:focus-visible,
+.button4:hover, 
+.button4:focus-visible,
+.doublebutton.button1 button:hover,
+.doublebutton.button1 button:focus-visible {
+    color: #ecfabd;
+}
+
+.button5 {
+    background: none;
+    border: 1px solid #2d3c41;
+    color: #56baca;
+}
+
+.button5:not(span):hover, 
+.button5:not(span):focus-visible,
+.doublebutton.button5 button:hover,
+.doublebutton.button5 button:focus-visible {
+    box-shadow: inset 0 0 10px #2d3c41;
+}
+
+.button6 {
+    background: none;
+    border: 1px solid #174842;
+    color: #00ab97;
+}
+
+.button6:hover, 
+.button6:focus-visible {
+    box-shadow: inset 0 0 10px #174842;
+}
+
+.button7 {
+    background: none;
+    border: 1px solid #394319;
+    color: #8fba00;
+}
+
+.button7:hover, 
+.button7:focus-visible {
+    box-shadow: inset 0 0 10px #394319;
+}
+
+.button8 {
+    background: none;
+    border: 1px solid #611f0f;
+    color: #ff633d;
+}
+
+.button8:hover, 
+.button8:focus-visible {
+    box-shadow: inset 0 0 10px #611f0f;
+}
+
+.size1 {
+    width: 200px;
+    height: 50px;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.size2 {
+    width: 180px;
+    height: 40px;
+    font-weight: 100;
+    font-size: 12px;
+}
+
+.size3 {
+    width: 120px;
+    height: 30px;
+    font-weight: 100;
+    font-size: 12px;
+}
+
+.size4 {
+    width: 80px;
+    height: 22px;
+    font-weight: 100;
+    font-size: 10px;
+}
+
+.doublebutton {
+    width: 222px;
+    display: grid;
+    justify-content: flex-start;
+    align-content: flex-start;
+    grid-template-columns: 40px 180px;
+}
+
+.settingButton1, 
+.settingButton2 {
+    width: 40px;
+    height: 40px;
+}
+
+.settingButton1 {
+    box-shadow: inset -1px 0 0 #21202e;
+}
+
+.settingButton2 {
+    box-shadow: inset -1px 0 0 #2d3c41;
+}
+
+.doublebutton button {
+    margin: 0;
+    text-align: center;
+    background: none;
+    border: none;
+    font-size: 12px;
+    font-weight: 100;
+    color: #56baca;
+}
+
+.doublebutton.button1 button:hover svg,
+.doublebutton.button1 button:focus-visible svg {
+    fill: #ecfabd;
+}
+
+.icon {
+    display: block;
+    width: 40px;
+    height: 40px;
+    fill: #56baca;
+}

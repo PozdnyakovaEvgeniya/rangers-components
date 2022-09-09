@@ -10,3 +10,24 @@
 body {
     background: #21202e; 
 }
+
+h1, h2 {
+    font-weight: 100;
+    color: #ffffff;
+}
+
+h1 {
+    margin: 15px 0;
+    font-size: 30px;
+}
+
+h2 {
+    margin: 20px 0;
+    font-size: 18px;
+}
+
+label {
+    font-size: 12px;
+    font-weight: 100;
+    color: #5d858d;
+}
